@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keys_shared_prefs">edu.uw.tcss450.uwtchat.PREFS</string>
+    <string name="keys_prefs_username">username</string>
+    <string name="keys_prefs_stay_logged_in">loggedIn</string>
+    <string name="keys_prefs_time_stamp">ts key</string>
+
+    <string name="keys_fragment_login">loginFragmentTag</string>
+    <string name="keys_fragment_register">registerFragmentTag</string>
+    <string name="keys_fragment_chat_list">chatListFragmentTag</string>
+    <string name="keys_fragment_home">homeFragmentTag</string>
+    <string name="keys_fragment_weather">weatherFragmentTag</string>
+    <string name="keys_fragment_contacts">contactsFragmentTag</string>
+    <string name="keys_fragment_new_chat">newChatFragmentTag</string>
+    <string name="keys_fragment_received_connections">receivedConnectonsFragmentTag</string>
+    <string name="keys_fragment_individual_chat">individualChatFragmentTag</string>
+    <string name="keys_fragment_view">ViewConnectionsFragmentTag</string>
+    <string name="keys_fragment_search">SearchConnectionsFragmentTag</string>
+    <string name="keys_fragment_sent">SentConnectionsFragmentTag</string>
+    <string name="keys_fragment_remove">RemoveConnectionsFragmentTag</string>
+
+    <string name="keys_json_username">username</string>
+    <string name="keys_json_password">password</string>
+    <string name="keys_json_email">email</string>
+    <string name="keys_json_firstname">firstname</string>
+    <string name="keys_json_lastname">lastname</string>
+    <string name="keys_json_message">message</string>
+    <string name="keys_json_messages">messages</string>
+    <string name="keys_json_success">success</string>
+    <string name="keys_json_chat_id">chatId</string>
+    <string name="keys_json_success_value_true">true</string>
+    <string name="keys_json_success_value_false">false</string>
+    
+    <string name="keys_json_chats">chats</string>
+    <string name="keys_json_members">members</string>
+    <string name="keys_json_chatid">chatid</string>
+    <string name="keys_json_timestamp">timestamp</string>
+    <string name="keys_json_connection">connection</string>
+    <string name="keys_json_connections">connections</string>
+    <string name="keys_json_search">search</string>
+    <string name="keys_json_notifications">notifications</string>
+    <string name="keys_json_primary_key">primarykey</string>
+    <string name="keys_json_sender">sender</string>
+</resources>

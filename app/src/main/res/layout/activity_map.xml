@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@color/lightPurple"
+
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/mapEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/lightGray"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:hint="Search Location Here" />
+
+
+        <Button
+            android:id="@+id/mapSearchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/purple"
+            android:textColor="@android:color/white"
+            android:text="Search" />
+
+    </LinearLayout>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+</fragment>
+
+</LinearLayout>

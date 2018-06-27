@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/user_home" />
+        <item
+            android:id="@+id/nav_chats"
+            android:icon="@drawable/chat_icon"
+            android:title="@string/user_chats" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/contacts_icon"
+            android:title="@string/user_contacts" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/weather_icon"
+            android:title="@string/user_weather" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="@string/user_logout" />
+    </group>
+
+</menu>

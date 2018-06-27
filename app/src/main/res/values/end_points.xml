@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ep_base_url">tcss450-group-6.herokuapp.com</string>
+    <string name="ep_login">login</string>
+    <string name="ep_register">register</string>
+    <string name="ep_forgot_pw">forgot</string>
+    <string name="ep_send_message">sendMessages</string>
+    <string name="ep_get_message">getMessages</string>
+
+    <string name="ep_get_chats">getChats</string>
+    <string name="ep_start_chat">startChat</string>
+    <string name="ep_delete_chat">deleteChat</string>
+    <string name="ep_get_connections">getConnections</string>
+    <string name="ep_search_connections">searchConnections</string>
+    <string name="ep_get_sent_connections">getSentConnections</string>
+    <string name="ep_get_received_connections">getReceivedConnections</string>
+    <string name="ep_add_connection">addConnection</string>
+    <string name="ep_remove_connection">removeConnection</string>
+    <string name="ep_approve_connection">approveConnection</string>
+    <string name="ep_get_notifications">getNotifications</string>
+    <string name="ep_add_location">addLocation</string>
+    <string name="ep_get_locations">getLocations</string>
+    <string name="ep_remove_location">removeLocation</string>
+    <string name="ep_get_unread_notifications">getUnreadNotifications</string>
+    <string name="ep_reset_password">resetPassword</string>
+</resources>
